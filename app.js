@@ -59,8 +59,8 @@ function addTask(e){
     if(taskInput.value === ''){
         alert('Add a task')
     }
-
-    //create li elements
+ else{
+             //create li elements
     const li = document.createElement('li');
     //add class
     li.className = 'collection-item';
@@ -80,6 +80,9 @@ function addTask(e){
 
     //store in ls
     storeTaskInLocalStorage(taskInput.value);
+
+    }
+
 
     //clear input
     taskInput.value = '';
