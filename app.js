@@ -57,7 +57,7 @@ function getTasks(){
 //Add task
 function addTask(e){
     if(taskInput.value === ''){
-        alert('Add a task')
+        alert('Please enter valid data')
     }
  else{
              //create li elements
